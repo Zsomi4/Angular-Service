@@ -11,4 +11,8 @@ products = [
   {id: 4, name: "GPU", price: 45}
 ];
   constructor() { }
+
+  getProducts() {
+    return this.products;
+  }
 }
